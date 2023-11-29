@@ -1,0 +1,368 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Work+Sans:wght@800&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    cursor: pointer;
+    transition: all 2s;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+li {
+    list-style: none;
+}
+
+.nav{
+    margin: 0;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    transition: all 2s;
+    color: #5F5F5F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160.187%; /* 25.63px */
+    text-decoration: none;
+}
+.nav a:hover{
+    color: red;
+
+}
+
+.eblem{
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    align-items: center;
+    
+}
+header{
+    background-image: url("./Path.png");
+    background-repeat: no-repeat;
+    background-size: 84%;
+    background-position-x: right;
+    background-position-y: top;
+}
+#grupa {
+    display: block;
+    height: 370px;
+    width: 800px;
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+    z-index: 1;
+}
+
+#we {
+    display: block;
+    position: relative;
+    z-index: 99;
+    font-size: 30px;
+    width: 600px;
+}
+
+.expres {
+    position: relative;
+    z-index: 99;
+    font-size: 40px;
+}
+
+.bluvota {
+    color: rgb(0, 6, 189);
+}
+.tel li a:hover{
+    color: red;
+}
+.tel li a{
+    transition: all 2s;
+    color: #5F5F5F;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    text-decoration: none;
+}
+#why_me{
+    position: relative;
+    left: 800px;
+}
+#why{
+    position: relative;
+    left: 200px;
+    color: #5F5F5F;
+
+}
+/* .fotki{
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+.fotki2{
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+#bib_bip{
+    position: relative;
+} */
+.flex__cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+}
+.flex__eml{
+    width: 270px;
+    background-color:aquamarine ;
+    border-radius: 24px;
+    height: 220px;
+    transition: all 2s;
+    cursor: pointer;
+}
+.flex__eml:hover{
+    transform: scale(0.9);
+}
+.flex__eml img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+.flex__eml h3{
+    display: block;
+    margin: 0 auto;
+    padding-left: 75px;
+    margin-top: 20px;
+}
+.container h2{
+    position: relative;
+    margin-left: 500px;
+}
+.naprav img{
+    width: 800px;
+    margin-left: 60px;
+}
+.naprav_txt h4{
+    margin-left: 50px;
+    font-size: 30px;
+    color: #5F5F5F;
+    border-bottom: 3px solid #5F5F5F;
+    width: 260px;
+    padding-bottom: 15px;
+}
+.naprav_txt p{
+    margin-left: 50px;
+    color: #5F5F5F;
+}
+.mainnapr{
+    display: flex;
+    justify-content: space-between;
+}
+.naprav1 img{
+    width: 800px;
+    
+}
+.naprav_txt1 h5{
+    margin-left: 50px;
+    font-size: 30px;
+    color: #5F5F5F;
+    border-bottom: 3px solid #5F5F5F;
+    width: 300px;
+    padding-bottom: 15px;
+}
+.naprav_txt1 p{
+    margin-left: 50px;
+    color: #5F5F5F;
+}
+.mainnapr1{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    display: flex;
+    
+    
+}
+.last_txt{
+    margin-left: 50px;
+    font-size: 30px;
+    width: 600px;
+    color: #222222;
+}
+.img_1{
+    margin-left: 450px;
+}
+.img_2{
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.last_txt1{
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 500px;
+}
+.last_txt2{
+    margin-left: 400px;
+    
+    color: #5F5F5F;
+}
+
+@media screen and (max-width: 768px) {
+    .tel li a{
+        color: green;
+        font-size: 12px;
+    }
+    .nav {
+        width: 415px;
+    }
+    .nav a{
+        color: green;
+        font-size: 15px;
+    }
+    #grupa{
+        width: 253px;
+        height: 185px;
+        margin-top: 130px;
+    }
+    .expres{
+        font-size: 20px;
+    }
+    #we{
+        font-size: 20px;
+        width: 455px;
+    }
+    .flex__eml{
+        width: 170px;
+    }
+    .flex__eml h3{
+        padding-left: 25px;
+        margin-top: 2px;
+    }
+    .container h2{
+        margin-left: 250px;
+    }
+    #why{
+        left: 45px;
+        font-size: 14px;
+    }
+    .naprav img{
+        width: 420px;
+        height: 380px;
+    }
+    .naprav_txt p{
+        font-size: 12px;
+    }
+    .naprav1 img{
+        width: 409px;
+        height: 340px;
+    }
+    .naprav_txt1 p{
+        font-size: 14px;
+        margin-top: -40px;
+    }
+    .last_txt{
+        font-size: 22px;
+        width: 100px;
+    }
+    .img_1{
+        margin-left: 150px;
+        
+    }
+    .img_2{
+        
+        margin-left: 150px;
+    }
+    .last_txt2{
+        margin-left: 50px;
+        font-size: 15px;
+        color: #5F5F5F;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .eblem {
+        flex-direction: column;
+    }
+
+    #grupa {
+        position: static;
+        display: block;
+        width: 400px;
+    }
+    .mainnapr{
+        flex-direction: column;
+        width: 300px;
+    }
+    .nav{
+        width: 370px;
+        margin-left: -10px;
+    }
+    .logo{
+        margin-left: -330px;
+    }
+    #we{
+        margin-left: 1px;
+        font-size: 20px;
+        max-width: 400px;
+    }
+    .container h2{
+        font-size: 20px;
+        margin-left: 120px;
+        
+    }
+    #why{
+        font-size: 9px;
+        margin-left: -40px;
+        max-width: 400px;
+    }
+    .naprav img{
+        max-width: 300px;
+        height: 300px;
+    }
+    .mainnapr1{
+        flex-direction: column;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .img_1{
+        margin-top: -70px;
+        margin-left: 250px;
+    }
+    .img_1 img{
+        width: 50px;
+    }
+    .img_2{
+        margin-left: 50px;
+        
+    }
+    .last_txt1 p{
+        font-size: 13px;
+        margin-left: 120px;
+        margin-top: -70px;
+        width: 130px;
+    }
+    .last_txt2 p{
+        font-size: 11px;
+    }
+}
