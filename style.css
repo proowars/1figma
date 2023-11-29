@@ -311,7 +311,8 @@ header{
     }
     .mainnapr{
         flex-direction: column;
-        width: 300px;
+        max-width: 100%;
+        align-items: center;
     }
     .nav{
         flex-direction: column;
@@ -345,10 +346,18 @@ header{
         max-width: 400px;
     }
     .naprav img{
-        width: 100%;
+            /* margin: 0; */
+            padding: 0;
+            display: block;
+            max-width: 50%;
+            margin: 0 auto;
+            height: 50%;
     }
     .naprav1 img{
-        width: 100%;
+        display: block;
+        max-width: 50%;
+        margin: 0 auto;
+        height: 50%;
     }
     .mainnapr1{
         flex-direction: column;
