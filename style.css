@@ -5,9 +5,14 @@ html{
 
 body {
     overflow-x: hidden;
-    visibility: hidden;
     background-color: white;
     font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -342,9 +347,11 @@ header{
         
     }
     #why{
+        position: static;
+        margin-bottom: 50px;
         font-size: 9px;
-        margin-left: -40px;
-        max-width: 400px;
+        /* margin-left: -40px; */
+        max-width: auto;
     }
     .naprav img{
             /* margin: 0; */
