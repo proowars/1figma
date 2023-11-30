@@ -135,7 +135,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .flex__eml{
     width: 270px;
@@ -313,7 +313,7 @@ header{
     #grupa {
         position: static;
         display: block;
-        width: 100%;
+        width: 50%;
     }
     .mainnapr{
         flex-direction: column;
@@ -347,11 +347,9 @@ header{
         
     }
     #why{
-        position: static;
-        margin-bottom: 50px;
         font-size: 9px;
-        /* margin-left: -40px; */
-        max-width: auto;
+        margin-left: -40px;
+        max-width: 400px;
     }
     .naprav img{
             /* margin: 0; */
