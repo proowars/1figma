@@ -18,7 +18,6 @@ body {
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 .logo{
     cursor: pointer;
@@ -365,6 +364,12 @@ header{
         max-width: 50%;
         margin: 0 auto;
         height: 50%;
+    }
+    .naprav_txt p{
+        margin-top: 25px;
+    }
+    .naprav_txt1 p{
+        margin-top: 25px;
     }
     .mainnapr1{
         flex-direction: column;
