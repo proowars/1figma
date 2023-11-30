@@ -135,7 +135,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 .flex__eml{
     width: 270px;
@@ -313,7 +313,7 @@ header{
     #grupa {
         position: static;
         display: block;
-        width: 50%;
+        width: 100%;
     }
     .mainnapr{
         flex-direction: column;
@@ -322,8 +322,8 @@ header{
     }
     .nav{
         flex-direction: column;
-        width: 420px;
-        margin-left: 50px;
+        max-width: 350px;
+        margin-left: 10px;
         
     }
     .tel{
@@ -340,7 +340,6 @@ header{
         margin-left: 10px;
         font-size: 15px;
         max-width: 294px;
-        width: 100%;
     }
     .container h2{
         font-size: 20px;
@@ -348,7 +347,6 @@ header{
         
     }
     #why{
-        width: 100%;
         font-size: 9px;
         margin-left: -40px;
         max-width: 400px;
@@ -375,7 +373,7 @@ header{
     }
     .img_1{
         margin-top: -70px;
-        /* margin-left: 250px; */
+        margin-left: 250px;
     }
     .img_1 img{
         width: 50px;
